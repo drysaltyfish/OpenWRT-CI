@@ -84,14 +84,6 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "airpi3000m" "LianXia233/luci-app-airpi3000m-fancontrol" "main"
 UPDATE_PACKAGE "h5000m" "LianXia233/luci-app-h5000m-netmode" "main"
 
-UPDATE_PACKAGE "mwan3" "openwrt/mwan3" "master" "pkg"
-UPDATE_PACKAGE "luci-app-mwan3" "openwrt/luci" "master" "pkg" "luci-app-mwan3"
-
-UPDATE_PACKAGE "bitsrunlogin-go" "Mmx233/BitSrunLoginGo" "main" "pkg"
-UPDATE_PACKAGE "luci-app-bitsrunlogin-go" "immortalwrt/luci" "master" "pkg" "luci-app-bitsrunlogin-go"
-
-UPDATE_PACKAGE "luci-app-ttyd" "openwrt/luci" "master" "pkg" "luci-app-ttyd"
-
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
